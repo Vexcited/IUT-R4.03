@@ -58,3 +58,8 @@ db.sales.distinct("storeLocation")
 ## B. Effectuer les recherches suivantes
 
 ### 1. Ventes contenant un laptop dont le prix est supérieur à 1500. On veut uniquement les items, la date de l’achat, et l’email de l’acheteur. Rq : dans la partie projection, en répétant le critère « `items: { $elemMatch }` » on restreint la liste des items retournés à ceux qui valident ce critère.
+
+
+---
+
+UPDATE: 28/02/2025 : Je n'ai pas enregistré les nouvelles requêtes malheureusement...
