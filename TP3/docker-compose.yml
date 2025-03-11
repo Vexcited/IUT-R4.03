@@ -1,0 +1,12 @@
+services:
+  neo4j-enterprise:
+    image: neo4j:enterprise
+    container_name: neo4j-enterprise
+    ports:
+      - "7474:7474"
+      - "7687:7687"
+    volumes:
+      - ./data:/data
+    environment:
+      - NEO4J_ACCEPT_LICENSE_AGREEMENT=eval
+      - NEO4J_AUTH=neo4j/password
